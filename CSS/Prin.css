@@ -1,0 +1,1611 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../IMG/BG1.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Poppins', Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(214, 55, 55, 0.3);
+    border-radius: 18px;
+}
+nav{
+    text-align: center;
+   
+}
+
+.menu ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.menu li{
+    flex-grow: 0.1;
+}
+.menu li:hover{
+    background: rgba(214, 55, 55, 0.3);
+    border-radius: 25px;
+}
+.menu li a{
+    display: block;
+    padding: 10px 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+@media (max-width: 800px){
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+
+}
+section{
+    max-width: 1000px;
+    text-align: center;
+    margin-top: 15%;
+    min-width: 800px;
+}
+section h1{
+    margin-left: -2%;
+    font-size: 70px;
+
+}
+section h3{ 
+    margin-left: -2%;
+    font-size: 22px;
+}
+button{
+    margin-top: 2%;
+    background: none;
+    border: 2px solid #000;
+    border-radius: 18px;
+    padding: 7px 18px;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+button a{
+    text-decoration: none;
+}
+button:hover{
+    background: rgba(214, 55, 55, 0.3);
+    border-radius: 15px; 
+    cursor: pointer;
+}
+.Contenedor-1{
+    text-align: justify;
+    max-width: 1000px;
+    margin-top: 17%;
+    
+}
+.Contenedor-1 h1{
+    font-size: 80px;
+    text-align: center;
+    
+}
+.Contenedor-1 P{
+    text-align: center;
+    font-size: 18px;
+
+    
+}
+.Contenedor-1 button{
+    font-size: 15px;
+    margin-left:45%;
+    cursor: pointer;
+
+}
+#Grupos{
+    width: 100%;
+    margin-top: 17.5%;
+   
+    
+ 
+}
+.T-Grupos{
+    margin-top: -50%;
+    margin-left: 57%;
+    width: 80%;
+}
+#Evo{
+    width: 100%;
+    margin-top: 20.5%;
+   
+}
+.T-EVO{
+    margin-top: -45%;
+    width: 80%;
+    margin-left: 5%;
+}
+.Contenedor-2{
+    text-align: justify;
+    max-width: 1000px;
+    
+}
+.Contenedor-2 h1{
+    font-size: 80px;
+    text-align: center;
+    
+}
+.Contenedor-2 P{
+    text-align: center;
+    font-size: 18px;
+
+    
+}
+.Contenedor-2 button{
+    font-size: 15px;
+    margin-left: 40%;
+    cursor: pointer;
+    
+}
+#Historia{
+    width: 100%;
+    margin-top: 17.2%;
+    margin-bottom: 18%;
+   
+}
+.T-His{
+    margin-top: -43%;
+    width: 80%; 
+    margin-left: 36%;
+}
+.Contenedor-3{
+    text-align: justify;
+    max-width: 1000px;
+    
+}
+.Contenedor-3 h1{
+    font-size: 80px;
+    text-align: center;
+    
+}
+.Contenedor-3 P{
+    text-align: center;
+    font-size: 18px;
+
+    
+}
+.Contenedor-3 button{
+    font-size: 15px;
+    margin-left: 40%;
+    cursor: pointer;
+}
+.T-His p{
+    margin-top: 6%;
+}
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: url(../IMG/up.png);
+    background-repeat: no-repeat;
+
+  }
+.IMGD{
+    margin-left: 52%;
+    margin-top:4%;
+    position: absolute;
+}
+.IMGD:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+.IMGG{
+    margin-top:7%;
+    position: absolute;
+    margin-left: 5%;
+}
+.IMGG:hover{
+    transform: scale(1.1);
+    transition: all 0.9s;
+}
+h1:hover{
+    color:#e40848 ;
+    cursor: pointer;
+}
+@media screen and (max-width: 850px){
+    section h1{
+        margin-left: -5%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -5%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -5%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 450px;
+        height: 450px;
+        margin-left: -1%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 855px;
+        height: 600px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -8em;
+        margin-top: 15%;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -5%;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #Evo .IMGBG2{
+        width: 848px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 300px;
+        height: 300px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left: 55%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left:-35%;
+        margin-top: -2em;
+    }
+    .T-EVO p{
+        font-size: 12px;
+        margin-left:-35%;
+    
+    }
+    .T-EVO button{
+        margin-left:25%;
+        margin-top: 5%;
+        margin-bottom: 45%;
+    }
+    .IMGBG3{
+        width: 858px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -25em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-15%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-15%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:20%;
+   
+    }
+    footer{
+        margin-top: 15%;
+        max-width: 859px;
+    }
+    .footer-bottom{
+        max-width: 859px;
+    }
+    body{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 1306px){
+    .IMGD{
+        width: 400px;
+        height: 400px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left: 60%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .IMGD{
+        width: 400px;
+        height: 400px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left:70%;
+    }
+}
+@media screen and (max-width: 1020px){
+    .IMGD{
+        width: 400px;
+        height: 400px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left:80%;
+    }
+}
+@media screen and (max-width: 849px){
+    .IMGD{
+        width: 390px;
+        height: 390px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left:56%;
+    }
+    
+}
+
+
+@media screen and (max-width: 1500){
+    section h1{
+        margin-left: -5%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -5%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -5%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 450px;
+        height: 450px;
+        margin-left: -1%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 855px;
+        height: 600px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -8em;
+        margin-top: 15%;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -5%;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #Evo .IMGBG2{
+        width: 848px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 300px;
+        height: 300px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left: 55%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left:-35%;
+        margin-top: -2em;
+    }
+    .T-EVO p{
+        font-size: 12px;
+        margin-left:-35%;
+    
+    }
+    .T-EVO button{
+        margin-left:25%;
+        margin-top: 5%;
+        margin-bottom: 45%;
+    }
+    .IMGBG3{
+        width: 858px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -25em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-15%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-15%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:20%;
+   
+    }
+  
+    body{
+        background-image: none;
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+    section h1{
+        margin-left: 5%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: 5%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: 5%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 450px;
+        height: 450px;
+        margin-left: -1%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 872px;
+        height: 600px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -7em;
+        margin-top: 15%;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -5%;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #Evo .IMGBG2{
+        width: 872px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 300px;
+        height: 300px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left: 55%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left:-35%;
+        margin-top: -2em;
+    }
+    .T-EVO p{
+        font-size: 12px;
+        margin-left:-35%;
+    
+    }
+    .T-EVO button{
+        margin-left:25%;
+        margin-top: 5%;
+        margin-bottom: 45%;
+    }
+    .IMGBG3{
+        width: 872px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -25em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-15%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-15%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:20%;
+   
+    }
+    footer{
+        margin-top: 15%;
+        width: 872px;
+    }
+    .footer-bottom{
+        width: 872px;
+    }
+    body{
+        background-image: none;
+    }
+}
+
+
+@media screen and (max-width: 710px){
+    section h1{
+        margin-left: -5%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -5%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -5%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 450px;
+        height: 450px;
+        margin-left: -1%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 772px;
+        height: 600px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -5em;
+        margin-top: 15%;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -5%;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: 12%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #Evo .IMGBG2{
+        width: 872px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 300px;
+        height: 300px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left: 55%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left:-35%;
+        margin-top: -8em;
+    }
+    .T-EVO p{
+        font-size: 12px;
+        margin-left:-35%;
+    
+    }
+    .T-EVO button{
+        margin-left:25%;
+        margin-top: 5%;
+        margin-bottom: 45%;
+    }
+    .IMGBG3{
+        width: 772px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -25em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-15%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-15%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:20%;
+   
+    }
+    footer{
+        margin-top: 15%;
+        width: 772px;
+    }
+    .footer-bottom{
+        width: 772px;
+    }
+    body{
+        background-image: none;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    section h1{
+        margin-left: -5%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -5%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -5%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 450px;
+        height: 450px;
+        margin-left: -1%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 743px;
+        height: 600px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -4em;
+        margin-top: 15%;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -5%;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: 12%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    #Evo .IMGBG2{
+        width: 743px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 300px;
+        height: 300px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left: 55%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left:-35%;
+        margin-top: -8em;
+    }
+    .T-EVO p{
+        font-size: 12px;
+        margin-left:-35%;
+    
+    }
+    .T-EVO button{
+        margin-left:25%;
+        margin-top: 5%;
+        margin-bottom: 45%;
+    }
+    .IMGBG3{
+        width: 743px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -25em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-15%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-15%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:20%;
+   
+    }
+    footer{
+        margin-top: 15%;
+        width: 772px;
+    }
+    .footer-bottom{
+        width: 772px;
+    }
+    body{
+        background-image: none;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    section h1{
+        margin-left: -25%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -25%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -25%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 280px;
+        height: 280px;
+        margin-left: 27%;
+        margin-top: 15%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 598px;
+        height: 680px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -9em;
+        margin-top: -6.5em;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -12em;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: -6em;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    #Evo .IMGBG2{
+        width: 598px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 300px;
+        height: 300px;
+        margin-top: 9em;
+        position: absolute;
+        margin-left: 55%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left:-35%;
+        margin-top: -8em;
+    }
+    .T-EVO p{
+        font-size: 12px;
+        margin-left:-35%;
+    
+    }
+    .T-EVO button{
+        margin-left:25%;
+        margin-top: 5%;
+        margin-bottom: 45%;
+    }
+    .IMGBG3{
+        width: 598px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -25em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-25%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-25%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:7%;
+   
+    }
+    footer{
+        margin-top: 15%;
+        width: 772px;
+    }
+    .footer-bottom{
+        width: 772px;
+    }
+    body{
+        background-image: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    section h1{
+        margin-left: -25%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -25%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -25%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 280px;
+        height: 280px;
+        margin-left: 27%;
+        margin-top: 15%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 598px;
+        height: 680px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -7em;
+        margin-top: -6.5em;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -10em;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: -5em;
+        margin-top: 5%;
+        margin-bottom: 15%;
+    }
+    #Evo .IMGBG2{
+        width: 598px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 230px;
+        height: 230px;
+        margin-top: 5em;
+        position: absolute;
+        margin-left: 35%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left: 3em;
+        margin-top: -7em;
+    }
+    .T-EVO p{
+        font-size: 15px;
+        margin-left:9em;
+    
+    }
+    .T-EVO button{
+        margin-left:13em;
+        margin-top: 5%;
+        margin-bottom: 45%;
+    }
+    .IMGBG3{
+        width: 598px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -23em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-20%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-20%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:15%;
+   
+    }
+    footer{
+        margin-top: 15%;
+       max-width: 972px;
+    }
+    .footer-bottom{
+        max-width: 972px;
+    }
+    body{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 420px){
+    section h1{
+        margin-left: -25%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -25%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -25%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 280px;
+        height: 280px;
+        margin-left: 35%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 598px;
+        height: 680px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -4em;
+        margin-top: -4.5em;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -7em;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: -1em;
+        margin-top: 5%;
+        margin-bottom: 55%;
+    }
+    #Evo .IMGBG2{
+        width: 598px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 230px;
+        height: 230px;
+        margin-top: 5em;
+        position: absolute;
+        margin-left: 40%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left: 3em;
+        margin-top: -7em;
+    }
+    .T-EVO p{
+        font-size: 15px;
+        margin-left:13em;
+    
+    }
+    .T-EVO button{
+        margin-left:13em;
+        margin-top: 5%;
+        margin-bottom: 70%;
+    }
+    .IMGBG3{
+        width: 598px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -20em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-5%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-10%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:30%;
+   
+    }
+    footer{
+        margin-top: 15%;
+       width: 972px;
+    }
+    .footer-bottom{
+        width: 972px;
+    }
+   
+    body{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 400px){
+    section h1{
+        margin-left: -25%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -25%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -25%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 280px;
+        height: 280px;
+        margin-left: 35%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 598px;
+        height: 680px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: -4em;
+        margin-top: -4.5em;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -7em;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: -1em;
+        margin-top: 5%;
+        margin-bottom: 55%;
+    }
+    #Evo .IMGBG2{
+        width: 598px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 230px;
+        height: 230px;
+        margin-top: 5em;
+        position: absolute;
+        margin-left: 40%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left: 3em;
+        margin-top: -7em;
+    }
+    .T-EVO p{
+        font-size: 15px;
+        margin-left:10em;
+        margin-right: -5em;
+    
+    }
+    .T-EVO button{
+        margin-left:15em;
+        margin-top: 5%;
+        margin-bottom: 70%;
+    }
+    .IMGBG3{
+        width: 598px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -20em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:-5%;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:-10%;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 40%;
+        margin-left:30%;
+   
+    }
+    footer{
+        margin-top: 15%;
+       width: 972px;
+    }
+    .footer-bottom{
+        width: 972px;
+    }
+   
+    body{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 300px){
+    section h1{
+        margin-left: -25%;
+        font-size: 60px;
+        margin-top: 25%;
+    }
+    section h3{
+        margin-left: -25%;
+        font-size: 18px; 
+    }
+    section button{
+        margin-left: -25%;
+        margin-bottom: 18%;
+    }
+    header label{
+        display: block;
+    }
+
+    .menu{
+        position: absolute;
+        margin-left: -70%;
+        transition: all 0.5s ease;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+
+    }
+    #Grupo1{
+        margin-top: -15%;
+    }
+    #Grupo1 .IMGG{
+        width: 280px;
+        height: 280px;
+        margin-left: 35%;
+        margin-top: 30%;
+        position: absolute;
+    }
+    #Grupo1 .IMGBG{
+        width: 598px;
+        height: 680px;
+        margin-top: 9%;
+    
+        
+    }
+    .T-Grupos h1{
+        font-size: 60px;
+        margin-left: 0em;
+        margin-top: -4.5em;
+       
+    }
+    .T-Grupos p{
+        font-size: 15px;
+        margin-left: -2em;
+        margin-top: 0em;
+        max-width: 300px;
+    }
+    .T-Grupos button{
+        margin-left: 4em;
+        margin-top: 5%;
+        margin-bottom: 55%;
+    }
+    #Evo .IMGBG2{
+        width: 598px;
+        height: 650px;
+
+    }
+    .IMGD{
+        width: 230px;
+        height: 230px;
+        margin-top: 5em;
+        position: absolute;
+        margin-left: 50%;
+    
+    }
+    .T-EVO h1{
+        font-size: 45px;
+        margin-left: 3em;
+        margin-top: -7em;
+    }
+    .T-EVO p{
+        font-size: 15px;
+        margin-left:10em;
+        margin-right: -9em;
+    
+    }
+    .T-EVO button{
+        margin-left:15em;
+        margin-top: 5%;
+        margin-bottom: 70%;
+    }
+    .IMGBG3{
+        width: 598px;
+        height: 300px;
+    }
+    .T-His{
+        max-width: 360px;
+        margin-bottom: -5em;
+        margin-top: -20em;
+    }
+    .T-His h1{
+        max-width: 360px;
+        font-size: 40px;
+        margin-left:2em;
+        
+    }
+    .T-His p{
+        max-width: 360px;
+        font-size: 17px;
+        margin-left:3em;
+        margin-right: -3em;
+
+   
+    }
+    .T-His button{
+       margin-bottom: 70%;
+        margin-left:47%;
+   
+    }
+    footer{
+        margin-top: 15%;
+       width: 972px;
+    }
+    .footer-bottom{
+        width: 972px;
+    }
+   
+    body{
+        background-image: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
